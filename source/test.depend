@@ -1,0 +1,658 @@
+# depslib dependency file v1.0
+1359367293 source:c:\users\rafael\documents\undergroundracer\source\ambiente\estandar\interfaz.cpp
+	"interfaz.h"
+	<GL/glut.h>
+	"../../str/str_opengl.h"
+	<iomanip>
+	<sstream>
+
+1359361360 c:\users\rafael\documents\undergroundracer\source\ambiente\estandar\interfaz.h
+	"base.h"
+	"../../detector_colisiones/geometria_colisiones.h"
+	"../../menu/menu.h"
+	"../../graphics/textures.h"
+
+1359320596 c:\users\rafael\documents\undergroundracer\source\ambiente\estandar\base.h
+	"../../objeto/objeto.h"
+	"../../objeto/generador_objetos.h"
+	"../../tiempo/time.h"
+	"../../generator/random_generator.h"
+	"../../keyboard/glfw_keyboard.h"
+	<vector>
+
+1359328479 c:\users\rafael\documents\undergroundracer\source\objeto\objeto.h
+	"../detector_colisiones/detector_colisiones.h"
+	"../detector_colisiones/geometria_colisiones.h"
+
+1359086815 c:\users\rafael\documents\undergroundracer\source\detector_colisiones\detector_colisiones.h
+
+1359059455 c:\users\rafael\documents\undergroundracer\source\detector_colisiones\geometria_colisiones.h
+	<cstddef>
+	<initializer_list>
+
+1359276136 c:\users\rafael\documents\undergroundracer\source\objeto\generador_objetos.h
+	"objeto.h"
+	"../generator/class_generator.h"
+	"../generator/random_generator.h"
+
+1359187994 c:\users\rafael\documents\undergroundracer\source\generator\class_generator.h
+
+1359279026 c:\users\rafael\documents\undergroundracer\source\generator\random_generator.h
+	<vector>
+	<initializer_list>
+	<random>
+	<chrono>
+	<cmath>
+
+1359327024 c:\users\rafael\documents\undergroundracer\source\tiempo\time.h
+	<iostream>
+	<conio.h>
+
+1359272075 c:\users\rafael\documents\undergroundracer\source\keyboard\glfw_keyboard.h
+	<GL/glfw.h>
+
+1359331927 c:\users\rafael\documents\undergroundracer\source\menu\menu.h
+
+1359358389 source:c:\users\rafael\documents\undergroundracer\source\ambiente\estandar\reglas.cpp
+	"reglas.h"
+	"../../objeto/simple/obstaculos.h"
+	<iostream>
+
+1359336975 c:\users\rafael\documents\undergroundracer\source\ambiente\estandar\reglas.h
+	"interfaz.h"
+
+1359337064 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculos.h
+	"obstaculo/piramide/objeto.h"
+	"obstaculo/cubo/objeto.h"
+	"obstaculo/cilindro/objeto.h"
+	"obstaculo/esfera/objeto.h"
+	"../generador_objetos.h"
+	<iostream>
+
+1359321691 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\piramide\objeto.h
+	"base.h"
+	"colisiones.h"
+	"modelo3d.h"
+
+1359330943 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\piramide\base.h
+	"../../../../detector_colisiones/geometria_colisiones.h"
+	"../../../../tiempo/time.h"
+
+1359238697 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\piramide\colisiones.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../detector_colisiones/simple/piramide.h"
+
+1359086845 c:\users\rafael\documents\undergroundracer\source\detector_colisiones\simple\piramide.h
+	"../detector_colisiones.h"
+	"../geometria_colisiones.h"
+
+1358974755 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\piramide\modelo3d.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../graphics/textures.h"
+
+1358929099 c:\users\rafael\documents\undergroundracer\source\graphics\textures.h
+	<GL/glut.h>
+	<vector>
+	<string>
+	<fstream>
+	<initializer_list>
+
+1359321701 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cubo\objeto.h
+	"base.h"
+	"colisiones.h"
+	"modelo3d.h"
+
+1359330931 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cubo\base.h
+	"../../../../detector_colisiones/geometria_colisiones.h"
+	"../../../../tiempo/time.h"
+
+1359238423 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cubo\colisiones.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../detector_colisiones/simple/paralelepipedo.h"
+
+1359086843 c:\users\rafael\documents\undergroundracer\source\detector_colisiones\simple\paralelepipedo.h
+	"../detector_colisiones.h"
+	"../geometria_colisiones.h"
+
+1358930542 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cubo\modelo3d.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../graphics/textures.h"
+
+1359321708 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cilindro\objeto.h
+	"base.h"
+	"colisiones.h"
+	"modelo3d.h"
+
+1359331234 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cilindro\base.h
+	"../../../../detector_colisiones/geometria_colisiones.h"
+	"../../../../tiempo/time.h"
+
+1359238320 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cilindro\colisiones.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../detector_colisiones/simple/cilindro.h"
+
+1359086836 c:\users\rafael\documents\undergroundracer\source\detector_colisiones\simple\cilindro.h
+	"../detector_colisiones.h"
+	"../geometria_colisiones.h"
+
+1358979750 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cilindro\modelo3d.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../graphics/textures.h"
+
+1359327766 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\esfera\objeto.h
+	"base.h"
+	"colisiones.h"
+	"modelo3d.h"
+
+1359330938 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\esfera\base.h
+	"../../../../detector_colisiones/geometria_colisiones.h"
+	"../../../../tiempo/time.h"
+
+1359326779 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\esfera\colisiones.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../detector_colisiones/simple/esfera.h"
+
+1359086840 c:\users\rafael\documents\undergroundracer\source\detector_colisiones\simple\esfera.h
+	"../detector_colisiones.h"
+	"../geometria_colisiones.h"
+
+1359017358 c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\esfera\modelo3d.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../graphics/textures.h"
+
+1359002334 source:c:\users\rafael\documents\undergroundracer\source\detector_colisiones\comprobar_colisiones.cpp
+	"comprobar_colisiones.h"
+	"simple/colisiones_simples.h"
+
+1359087152 c:\users\rafael\documents\undergroundracer\source\detector_colisiones\comprobar_colisiones.h
+	"detector_colisiones.h"
+	<vector>
+	<iostream>
+	<typeinfo>
+
+1358197426 c:\users\rafael\documents\undergroundracer\source\detector_colisiones\simple\colisiones_simples.h
+	"paralelepipedo.h"
+	"cilindro.h"
+	"piramide.h"
+	"esfera.h"
+
+1359002860 source:c:\users\rafael\documents\undergroundracer\source\detector_colisiones\detector_colisiones.cpp
+	"detector_colisiones.h"
+	"comprobar_colisiones.h"
+
+1359050264 source:c:\users\rafael\documents\undergroundracer\source\detector_colisiones\geometria_colisiones.cpp
+	"geometria_colisiones.h"
+	<cmath>
+	<iostream>
+
+1359050288 source:c:\users\rafael\documents\undergroundracer\source\detector_colisiones\simple\colisiones_simples.cpp
+	"colisiones_simples.h"
+	<iostream>
+
+1351364970 source:c:\users\rafael\documents\undergroundracer\source\graphics\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1351364970 c:\users\rafael\documents\undergroundracer\source\graphics\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1358971696 source:c:\users\rafael\documents\undergroundracer\source\graphics\textures.cpp
+	"textures.h"
+	"lodepng.h"
+	<iostream>
+	<map>
+	<algorithm>
+
+1359274296 source:c:\users\rafael\documents\undergroundracer\source\keyboard\glfw_keyboard.cpp
+	"glfw_keyboard.h"
+
+1359345048 source:c:\users\rafael\documents\undergroundracer\source\main.cpp
+	<cstdlib>
+	<iostream>
+	<GL/glfw.h>
+	"../simple/obstaculo/piramide/objeto.h"
+	"../simple/obstaculo/cilindro/objeto.h"
+	"objeto/simple/obstaculos.h"
+	"objeto/simple/vehiculo/cajita/objeto.h"
+	"objeto/generador_objetos.h"
+	"ambiente/estandar/reglas.h"
+
+1359329430 source:c:\users\rafael\documents\undergroundracer\source\objeto\objeto.cpp
+	"objeto.h"
+
+1359238447 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cilindro\colisiones.cpp
+	"colisiones.h"
+
+1359331324 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cilindro\modelo3d.cpp
+	"modelo3d.h"
+	<GL/glut.h>
+	<cmath>
+
+1359331351 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cilindro\objeto.cpp
+	"objeto.h"
+
+1359238477 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cubo\colisiones.cpp
+	"colisiones.h"
+	<iostream>
+
+1359331362 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cubo\objeto.cpp
+	"objeto.h"
+
+1359238519 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\esfera\colisiones.cpp
+	"colisiones.h"
+	<cmath>
+
+1359356771 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\esfera\modelo3d.cpp
+	"modelo3d.h"
+	<GL/glut.h>
+
+1359331368 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\esfera\objeto.cpp
+	"objeto.h"
+
+1359238683 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\piramide\colisiones.cpp
+	"colisiones.h"
+
+1359331120 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\piramide\modelo3d.cpp
+	"modelo3d.h"
+	<GL/glut.h>
+	<cmath>
+
+1359331378 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\piramide\objeto.cpp
+	"objeto.h"
+
+1359359588 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculos.cpp
+	"obstaculos.h"
+
+1359334146 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\vehiculo\cajita\colisiones.cpp
+	"colisiones.h"
+	<iostream>
+
+1359334314 c:\users\rafael\documents\undergroundracer\source\objeto\simple\vehiculo\cajita\colisiones.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../detector_colisiones/simple/paralelepipedo.h"
+
+1359334169 c:\users\rafael\documents\undergroundracer\source\objeto\simple\vehiculo\cajita\base.h
+	"../../../../detector_colisiones/geometria_colisiones.h"
+	"../../../../tiempo/time.h"
+
+1359340034 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\vehiculo\cajita\modelo3d.cpp
+	"modelo3d.h"
+	<GL/gl.h>
+
+1359333985 c:\users\rafael\documents\undergroundracer\source\objeto\simple\vehiculo\cajita\modelo3d.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../graphics/textures.h"
+
+1359336628 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\vehiculo\cajita\objeto.cpp
+	"objeto.h"
+
+1359336615 c:\users\rafael\documents\undergroundracer\source\objeto\simple\vehiculo\cajita\objeto.h
+	"base.h"
+	"colisiones.h"
+	"modelo3d.h"
+
+1359334715 source:c:\users\rafael\documents\undergroundracer\source\objeto\simple\obstaculo\cubo\modelo3d.cpp
+	"modelo3d.h"
+	<GL/gl.h>
+
+1355370953 source:c:\users\rafael\documents\undergroundracer\source\str\str.cpp
+	"str.h"
+
+1355379431 c:\users\rafael\documents\undergroundracer\source\str\str.h
+	<sstream>
+	<string>
+
+1355373655 source:c:\users\rafael\documents\undergroundracer\source\str\str_opengl.cpp
+	"str_opengl.h"
+
+1355373186 c:\users\rafael\documents\undergroundracer\source\str\str_opengl.h
+	"str.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1359365300 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\ambiente\estandar\interfaz.cpp
+	"interfaz.h"
+	<GL/glut.h>
+	"../../str/str_opengl.h"
+	<iomanip>
+	<sstream>
+
+1359361360 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\ambiente\estandar\interfaz.h
+	"base.h"
+	"../../detector_colisiones/geometria_colisiones.h"
+	"../../menu/menu.h"
+	"../../graphics/textures.h"
+
+1359320596 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\ambiente\estandar\base.h
+	"../../objeto/objeto.h"
+	"../../objeto/generador_objetos.h"
+	"../../tiempo/time.h"
+	"../../generator/random_generator.h"
+	"../../keyboard/glfw_keyboard.h"
+	<vector>
+
+1359328479 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\objeto.h
+	"../detector_colisiones/detector_colisiones.h"
+	"../detector_colisiones/geometria_colisiones.h"
+
+1359086815 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\detector_colisiones\detector_colisiones.h
+
+1359059455 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\detector_colisiones\geometria_colisiones.h
+	<cstddef>
+	<initializer_list>
+
+1359276136 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\generador_objetos.h
+	"objeto.h"
+	"../generator/class_generator.h"
+	"../generator/random_generator.h"
+
+1359187994 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\generator\class_generator.h
+
+1359279026 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\generator\random_generator.h
+	<vector>
+	<initializer_list>
+	<random>
+	<chrono>
+	<cmath>
+
+1359327024 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\tiempo\time.h
+	<iostream>
+	<conio.h>
+
+1359272075 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\keyboard\glfw_keyboard.h
+	<GL/glfw.h>
+
+1359331927 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\menu\menu.h
+
+1355373186 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\str\str_opengl.h
+	"str.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1355379431 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\str\str.h
+	<sstream>
+	<string>
+
+1359358389 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\ambiente\estandar\reglas.cpp
+	"reglas.h"
+	"../../objeto/simple/obstaculos.h"
+	<iostream>
+
+1359336975 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\ambiente\estandar\reglas.h
+	"interfaz.h"
+
+1359337064 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculos.h
+	"obstaculo/piramide/objeto.h"
+	"obstaculo/cubo/objeto.h"
+	"obstaculo/cilindro/objeto.h"
+	"obstaculo/esfera/objeto.h"
+	"../generador_objetos.h"
+	<iostream>
+
+1359321691 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\piramide\objeto.h
+	"base.h"
+	"colisiones.h"
+	"modelo3d.h"
+
+1359330943 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\piramide\base.h
+	"../../../../detector_colisiones/geometria_colisiones.h"
+	"../../../../tiempo/time.h"
+
+1359238697 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\piramide\colisiones.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../detector_colisiones/simple/piramide.h"
+
+1359086845 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\detector_colisiones\simple\piramide.h
+	"../detector_colisiones.h"
+	"../geometria_colisiones.h"
+
+1358974755 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\piramide\modelo3d.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../graphics/textures.h"
+
+1358929099 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\graphics\textures.h
+	<GL/glut.h>
+	<vector>
+	<string>
+	<fstream>
+	<initializer_list>
+
+1359321701 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cubo\objeto.h
+	"base.h"
+	"colisiones.h"
+	"modelo3d.h"
+
+1359330931 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cubo\base.h
+	"../../../../detector_colisiones/geometria_colisiones.h"
+	"../../../../tiempo/time.h"
+
+1359238423 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cubo\colisiones.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../detector_colisiones/simple/paralelepipedo.h"
+
+1359086843 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\detector_colisiones\simple\paralelepipedo.h
+	"../detector_colisiones.h"
+	"../geometria_colisiones.h"
+
+1358930542 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cubo\modelo3d.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../graphics/textures.h"
+
+1359321708 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cilindro\objeto.h
+	"base.h"
+	"colisiones.h"
+	"modelo3d.h"
+
+1359331234 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cilindro\base.h
+	"../../../../detector_colisiones/geometria_colisiones.h"
+	"../../../../tiempo/time.h"
+
+1359238320 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cilindro\colisiones.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../detector_colisiones/simple/cilindro.h"
+
+1359086836 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\detector_colisiones\simple\cilindro.h
+	"../detector_colisiones.h"
+	"../geometria_colisiones.h"
+
+1358979750 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cilindro\modelo3d.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../graphics/textures.h"
+
+1359327766 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\esfera\objeto.h
+	"base.h"
+	"colisiones.h"
+	"modelo3d.h"
+
+1359330938 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\esfera\base.h
+	"../../../../detector_colisiones/geometria_colisiones.h"
+	"../../../../tiempo/time.h"
+
+1359326779 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\esfera\colisiones.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../detector_colisiones/simple/esfera.h"
+
+1359086840 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\detector_colisiones\simple\esfera.h
+	"../detector_colisiones.h"
+	"../geometria_colisiones.h"
+
+1359017358 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\esfera\modelo3d.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../graphics/textures.h"
+
+1359002334 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\detector_colisiones\comprobar_colisiones.cpp
+	"comprobar_colisiones.h"
+	"simple/colisiones_simples.h"
+
+1359087152 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\detector_colisiones\comprobar_colisiones.h
+	"detector_colisiones.h"
+	<vector>
+	<iostream>
+	<typeinfo>
+
+1358197426 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\detector_colisiones\simple\colisiones_simples.h
+	"paralelepipedo.h"
+	"cilindro.h"
+	"piramide.h"
+	"esfera.h"
+
+1359002860 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\detector_colisiones\detector_colisiones.cpp
+	"detector_colisiones.h"
+	"comprobar_colisiones.h"
+
+1359050264 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\detector_colisiones\geometria_colisiones.cpp
+	"geometria_colisiones.h"
+	<cmath>
+	<iostream>
+
+1359050288 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\detector_colisiones\simple\colisiones_simples.cpp
+	"colisiones_simples.h"
+	<iostream>
+
+1351364970 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\graphics\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1351364970 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\graphics\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1358971696 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\graphics\textures.cpp
+	"textures.h"
+	"lodepng.h"
+	<iostream>
+	<map>
+	<algorithm>
+
+1359274296 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\keyboard\glfw_keyboard.cpp
+	"glfw_keyboard.h"
+
+1359362533 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\main.cpp
+	<cstdlib>
+	<iostream>
+	<GL/glfw.h>
+	"../simple/obstaculo/piramide/objeto.h"
+	"../simple/obstaculo/cilindro/objeto.h"
+	"objeto/simple/obstaculos.h"
+	"objeto/simple/vehiculo/cajita/objeto.h"
+	"objeto/generador_objetos.h"
+	"ambiente/estandar/reglas.h"
+	"str/str_opengl.h"
+
+1359336615 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\vehiculo\cajita\objeto.h
+	"base.h"
+	"colisiones.h"
+	"modelo3d.h"
+
+1359334169 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\vehiculo\cajita\base.h
+	"../../../../detector_colisiones/geometria_colisiones.h"
+	"../../../../tiempo/time.h"
+
+1359334314 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\vehiculo\cajita\colisiones.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../detector_colisiones/simple/paralelepipedo.h"
+
+1359333985 c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\vehiculo\cajita\modelo3d.h
+	"base.h"
+	"../../../objeto.h"
+	"../../../../graphics/textures.h"
+
+1359329430 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\objeto.cpp
+	"objeto.h"
+
+1359238447 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cilindro\colisiones.cpp
+	"colisiones.h"
+
+1359331324 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cilindro\modelo3d.cpp
+	"modelo3d.h"
+	<GL/glut.h>
+	<cmath>
+
+1359331351 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cilindro\objeto.cpp
+	"objeto.h"
+
+1359238477 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cubo\colisiones.cpp
+	"colisiones.h"
+	<iostream>
+
+1359334715 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cubo\modelo3d.cpp
+	"modelo3d.h"
+	<GL/gl.h>
+
+1359331362 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\cubo\objeto.cpp
+	"objeto.h"
+
+1359238519 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\esfera\colisiones.cpp
+	"colisiones.h"
+	<cmath>
+
+1359356771 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\esfera\modelo3d.cpp
+	"modelo3d.h"
+	<GL/glut.h>
+
+1359331368 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\esfera\objeto.cpp
+	"objeto.h"
+
+1359238683 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\piramide\colisiones.cpp
+	"colisiones.h"
+
+1359331120 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\piramide\modelo3d.cpp
+	"modelo3d.h"
+	<GL/glut.h>
+	<cmath>
+
+1359331378 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculo\piramide\objeto.cpp
+	"objeto.h"
+
+1359359588 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\obstaculos.cpp
+	"obstaculos.h"
+
+1359334146 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\vehiculo\cajita\colisiones.cpp
+	"colisiones.h"
+	<iostream>
+
+1359340034 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\vehiculo\cajita\modelo3d.cpp
+	"modelo3d.h"
+	<GL/gl.h>
+
+1359336628 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\objeto\simple\vehiculo\cajita\objeto.cpp
+	"objeto.h"
+
+1355370953 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\str\str.cpp
+	"str.h"
+
+1355373655 source:c:\users\rafael\dropbox\universidad\10° semestre\informática 3\underground racer\source\str\str_opengl.cpp
+	"str_opengl.h"
+

@@ -1,0 +1,48 @@
+urjr
+
+
+	objetos
+
+		simple
+
+			obstáculo
+				paralelepípedo
+					Objeto
+					Detector de Colisiones
+					Modelo 3D
+				pirámide
+					Objeto
+					Detector de Colisiones
+					Modelo 3D
+				cilindro
+					Objeto
+					Detector de Colisiones
+					Modelo 3D
+				esfera
+					Objeto
+					Detector de Colisiones
+					Modelo 3D
+
+			vehículo
+				Objeto
+				Detector de Colisiones
+				Modelo 3D
+
+
+	ambiente
+
+		estándar
+
+		túnel
+
+		
+	detector de colisiones
+
+		simple
+			paralelepípedo
+			pirámide
+			cilindro
+			esfera
+
+
+	modelo 3d

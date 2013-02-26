@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Underground Racer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG_POSICION" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Debug (Copy of Release)">
+				<Option output="bin\DebugCopy\test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\DebugCopy\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-static" />
+			<Add library="glfw" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add library="glut32" />
+		</Linker>
+		<Unit filename="ambiente\estandar\base.h" />
+		<Unit filename="ambiente\estandar\interfaz.cpp" />
+		<Unit filename="ambiente\estandar\interfaz.h" />
+		<Unit filename="ambiente\estandar\reglas.cpp" />
+		<Unit filename="ambiente\estandar\reglas.h" />
+		<Unit filename="detector_colisiones\comprobar_colisiones.cpp" />
+		<Unit filename="detector_colisiones\comprobar_colisiones.h" />
+		<Unit filename="detector_colisiones\detector_colisiones.cpp" />
+		<Unit filename="detector_colisiones\detector_colisiones.h" />
+		<Unit filename="detector_colisiones\geometria_colisiones.cpp" />
+		<Unit filename="detector_colisiones\geometria_colisiones.h" />
+		<Unit filename="detector_colisiones\simple\cilindro.h" />
+		<Unit filename="detector_colisiones\simple\colisiones_simples.cpp" />
+		<Unit filename="detector_colisiones\simple\colisiones_simples.h" />
+		<Unit filename="detector_colisiones\simple\esfera.h" />
+		<Unit filename="detector_colisiones\simple\paralelepipedo.h" />
+		<Unit filename="detector_colisiones\simple\piramide.h" />
+		<Unit filename="generator\class_generator.h" />
+		<Unit filename="generator\random_generator.h" />
+		<Unit filename="graphics\lodepng.cpp" />
+		<Unit filename="graphics\lodepng.h" />
+		<Unit filename="graphics\textures.cpp" />
+		<Unit filename="graphics\textures.h" />
+		<Unit filename="keyboard\glfw_keyboard.cpp" />
+		<Unit filename="keyboard\glfw_keyboard.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menu\menu.h" />
+		<Unit filename="menu\menu_juego.h" />
+		<Unit filename="objeto\generador_objetos.h" />
+		<Unit filename="objeto\objeto.cpp" />
+		<Unit filename="objeto\objeto.h" />
+		<Unit filename="objeto\simple\obstaculo\cilindro\base.h" />
+		<Unit filename="objeto\simple\obstaculo\cilindro\colisiones.cpp" />
+		<Unit filename="objeto\simple\obstaculo\cilindro\colisiones.h" />
+		<Unit filename="objeto\simple\obstaculo\cilindro\modelo3d.cpp" />
+		<Unit filename="objeto\simple\obstaculo\cilindro\modelo3d.h" />
+		<Unit filename="objeto\simple\obstaculo\cilindro\objeto.cpp" />
+		<Unit filename="objeto\simple\obstaculo\cilindro\objeto.h" />
+		<Unit filename="objeto\simple\obstaculo\cubo\base.h" />
+		<Unit filename="objeto\simple\obstaculo\cubo\colisiones.cpp" />
+		<Unit filename="objeto\simple\obstaculo\cubo\colisiones.h" />
+		<Unit filename="objeto\simple\obstaculo\cubo\modelo3d.cpp" />
+		<Unit filename="objeto\simple\obstaculo\cubo\modelo3d.h" />
+		<Unit filename="objeto\simple\obstaculo\cubo\objeto.cpp" />
+		<Unit filename="objeto\simple\obstaculo\cubo\objeto.h" />
+		<Unit filename="objeto\simple\obstaculo\esfera\base.h" />
+		<Unit filename="objeto\simple\obstaculo\esfera\colisiones.cpp" />
+		<Unit filename="objeto\simple\obstaculo\esfera\colisiones.h" />
+		<Unit filename="objeto\simple\obstaculo\esfera\modelo3d.cpp" />
+		<Unit filename="objeto\simple\obstaculo\esfera\modelo3d.h" />
+		<Unit filename="objeto\simple\obstaculo\esfera\objeto.cpp" />
+		<Unit filename="objeto\simple\obstaculo\esfera\objeto.h" />
+		<Unit filename="objeto\simple\obstaculo\piramide\base.h" />
+		<Unit filename="objeto\simple\obstaculo\piramide\colisiones.cpp" />
+		<Unit filename="objeto\simple\obstaculo\piramide\colisiones.h" />
+		<Unit filename="objeto\simple\obstaculo\piramide\modelo3d.cpp" />
+		<Unit filename="objeto\simple\obstaculo\piramide\modelo3d.h" />
+		<Unit filename="objeto\simple\obstaculo\piramide\objeto.cpp" />
+		<Unit filename="objeto\simple\obstaculo\piramide\objeto.h" />
+		<Unit filename="objeto\simple\obstaculos.cpp" />
+		<Unit filename="objeto\simple\obstaculos.h" />
+		<Unit filename="objeto\simple\vehiculo\cajita\base.h" />
+		<Unit filename="objeto\simple\vehiculo\cajita\colisiones.cpp" />
+		<Unit filename="objeto\simple\vehiculo\cajita\colisiones.h" />
+		<Unit filename="objeto\simple\vehiculo\cajita\modelo3d.cpp" />
+		<Unit filename="objeto\simple\vehiculo\cajita\modelo3d.h" />
+		<Unit filename="objeto\simple\vehiculo\cajita\objeto.cpp" />
+		<Unit filename="objeto\simple\vehiculo\cajita\objeto.h" />
+		<Unit filename="str\str.cpp" />
+		<Unit filename="str\str.h" />
+		<Unit filename="str\str_opengl.cpp" />
+		<Unit filename="str\str_opengl.h" />
+		<Unit filename="tiempo\time.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
