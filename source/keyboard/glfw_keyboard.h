@@ -14,7 +14,7 @@ namespace urjr
 			void setOnKeyUpDownCallback ();
 			void setKeyboardCallbacks ();
 		private:
-			virtual void onKeyUpDown (int key, int action);
+			virtual void onKeyUpDown (int key, int action) = 0;
 		friend class KeyboardSelector;
 	};
 
